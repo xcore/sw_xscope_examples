@@ -8,7 +8,7 @@ TARGET = XK-1A
 # not include the .xe postfix. If left blank the name will default to 
 # the project name
 
-APP_NAME = app_xscope_discrete
+APP_NAME = app_xscope_statemachine
 
 # The flags passed to xcc when building the application
 # You can also set the following to override flags for a particular language:
@@ -18,7 +18,7 @@ APP_NAME = app_xscope_discrete
 # If the variable XCC_MAP_FLAGS is set it overrides the flags passed to 
 # xcc for the final link (mapping) stage.
 
-XCC_FLAGS =  -O2 -lxscope
+XCC_FLAGS = -O2 -lxscope
 
 # The USED_MODULES variable lists other module used by the application. 
 

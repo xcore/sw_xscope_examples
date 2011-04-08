@@ -1,4 +1,4 @@
-<title>
+XScope Application Examples
 .......
 
 :Stable release: unknown

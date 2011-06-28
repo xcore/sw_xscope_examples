@@ -37,7 +37,7 @@ xsi:schemaLocation="http://www.xmos.com http://www.xmos.com">
 
   <Links>
     <Link Encoding="2wire" Delays="4,4" Flags="SOD">
-      <LinkEndpoint NodeId="0" Link="X0LD"/>
+      <LinkEndpoint NodeId="0" Link="X0LC"/>
       <LinkEndpoint RoutingId="0x8000" Chanend="1"/>
     </Link>
   </Links>

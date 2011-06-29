@@ -40,7 +40,7 @@
 # This variable should contain a space separated list of all
 # the directories containing buildable applications (usually
 # prefixed with the app_ prefix)
-BUILD_SUBDIRS = app_xscope_continuous app_xscope_discrete app_xscope_ioredirection app_xscope_multicore app_xscope_multithreaded app_xscope_startstop app_xscope_statemachine app_xscope_uart
+BUILD_SUBDIRS = app_xscope_continuous app_xscope_discrete app_xscope_ioredirection app_xscope_multicore app_xscope_multithreaded app_xscope_startstop app_xscope_statemachine app_xscope_uart app_xscope_from_c
 
 # This variable should contain a space separated list of all
 # the directories containing buildable plugins (usually

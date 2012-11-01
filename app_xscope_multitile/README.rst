@@ -1,9 +1,9 @@
-<Add title here>
-================
+XScope Example Using Multiple xCORE Tiles
+=========================================
 
-:scope: <Put one of Roadmap, Example, Early Development or General Use>
-:description: <Add one line here>
-:keywords: <Add comma separated list of keywords>
-:boards: <Add comma separated list of supported boards>
+:scope: Example
+:description: Demonstrates using XScope from multiple xCORE tiles
+:keywords: xscope
+:boards: MULTICHANNEL L2 USB AUDIO
 
-<Add description of software block>
+Provides a simple example of using XScope to collect data from events on multiple xCORE tiles.

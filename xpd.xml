@@ -1,6 +1,43 @@
 <?xml version="1.0" ?>
 <xpd>
-    <components></components>
+    <components>
+        <component description = "Demonstrates redirecting standard device output via XScope for real time printf" type = "demoCode" scope = "Example" path = "app_xscope_ioredirection" local = "false" id = "app_xscope_ioredirection" name = "XScope I/O Redirection Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates the use of the XScope Start/Stop event type" type = "demoCode" scope = "Example" path = "app_xscope_startstop" local = "false" id = "app_xscope_startstop" name = "XScope Start/Stop Event Type Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates the use of the XScope State Machine event type" type = "demoCode" scope = "Example" path = "app_xscope_statemachine" local = "false" id = "app_xscope_statemachine" name = "XScope State Machine Event Type Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates the use of the XScope Continuous event type" type = "demoCode" scope = "Example" path = "app_xscope_continuous" local = "false" id = "app_xscope_continuous" name = "XScope Continuous Event Type Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates using XScope from multiple xCORE tiles" type = "demoCode" scope = "Example" path = "app_xscope_multitile" local = "false" id = "app_xscope_multitile" name = "XScope Example Using Multiple xCORE Tiles">
+            <board>MULTICHANNEL L2 USB AUDIO</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates the use of the XScope from application code written in C" type = "demoCode" scope = "Example" path = "app_xscope_from_c" local = "false" id = "app_xscope_from_c" name = "XScope Calling From C Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates the use of the XScope Discrete event type" type = "demoCode" scope = "Example" path = "app_xscope_discrete" local = "false" id = "app_xscope_discrete" name = "XScope Discrete Event Type Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates using XScope from multiple logical cores" type = "demoCode" scope = "Example" path = "app_xscope_multicore" local = "false" id = "app_xscope_multicore" name = "XScope Example Using Multiple Logical Cores">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+        <component description = "Demonstrates redirecting XScope output via a UART transport rather than an xCONNECT link" type = "demoCode" scope = "Example" path = "app_xscope_uart" local = "false" id = "app_xscope_uart" name = "XScope UART data transport Example">
+            <board>XK-1A</board>
+            <keyword>xscope</keyword>
+        </component>
+    </components>
     <description>Examples for using the XMOS xScope instrumentation system.</description>
     <location>git@github.com:xcore/sw_xscope_examples.git</location>
     <name>sw_xscope_examples</name>

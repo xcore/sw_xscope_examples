@@ -1,9 +1,9 @@
-<Add title here>
-================
+XScope Calling From C Example 
+=============================
 
-:scope: <Put one of Roadmap, Example, Early Development or General Use>
-:description: <Add one line here>
-:keywords: <Add comma separated list of keywords>
-:boards: <Add comma separated list of supported boards>
+:scope: Example
+:description: Demonstrates the use of the XScope from application code written in C
+:keywords: xscope
+:boards: XK-1A
 
-<Add description of software block>
+Provides a simple example of the integration of XScope into an application written in C code.

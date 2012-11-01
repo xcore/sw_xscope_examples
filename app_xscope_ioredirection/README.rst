@@ -1,9 +1,9 @@
-<Add title here>
-================
+XScope I/O Redirection Example 
+==============================
 
-:scope: <Put one of Roadmap, Example, Early Development or General Use>
-:description: <Add one line here>
-:keywords: <Add comma separated list of keywords>
-:boards: <Add comma separated list of supported boards>
+:scope: Example
+:description: Demonstrates redirecting standard device output via XScope for real time printf
+:keywords: xscope
+:boards: XK-1A
 
-<Add description of software block>
+Provides a simple example of redirecting device I/O via the XScope system to allow printing from a real time system.

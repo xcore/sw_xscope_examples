@@ -1,4 +1,4 @@
-<Insert Repo name> Change Log
+sw_xscope_examples Change Log
 =============================
 
 1.1.0

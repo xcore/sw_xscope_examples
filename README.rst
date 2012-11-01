@@ -1,42 +1,29 @@
 XScope Application Examples
-.......
+...........................
 
-:Stable release: unknown
-
-:Status:  alpha
-
+:Latest release: unknown
 :Maintainer:  mattfyles
-
-:Description:  A collection of simple examples demonstrating the functionality of XScope
-
+:Description:  A collection of example applications demonstrating the supported features of the XScope code instrumentation system
 
 Key Features
 ============
 
-* XScope discrete event type example
-* XScope state machine event type example
-* XScope start-stop event type example
-* XScope continuous event type example
-* XScope multi-threaded example
-* XScope multi-core example
-* XScope print redirection example
-* XScope UART example
+* XScope application example of continuous event types
+* XScope application example of discrete event types
+* XScope application example for calling from C code
+* XScope application example for i/o redirection
+* XScope application example using multiple logical cores
+* XScope application example using multiple xCORE tiles
+* XScope application example of start-stop event types
+* XScope application example of state machine event type
+* XScope application example using UART for data transport
 
-To Do
-=====
+Documentation
+=============
 
-
-Firmware Overview
-=================
-
-
-Known Issues
-============
-
-Required Repositories
-================
-
-* xcommon git\@github.com:xcore/xcommon.git
+Full documentation can be found at: http://xcore.github.com/sw_xscope_examples
 
 Support
 =======
+
+Issues may be submitted via the Issues tab in the github repo. Response to any issues submitted are at the discretion of the maintainer

@@ -1,9 +1,10 @@
 XScope Application Examples
 ...........................
 
-:Latest release: unknown
-:Maintainer:  mattfyles
-:Description:  A collection of example applications demonstrating the supported features of the XScope code instrumentation system
+:Latest release: 1.0.0alpha0
+:Maintainer: mattfyles
+:Description: Examples for using the XMOS xScope instrumentation system.
+
 
 Key Features
 ============
@@ -27,3 +28,9 @@ Support
 =======
 
 Issues may be submitted via the Issues tab in the github repo. Response to any issues submitted are at the discretion of the maintainer
+
+Required software (dependencies)
+================================
+
+  * None
+

@@ -43,7 +43,8 @@
     <name>sw_xscope_examples</name>
     <maintainer>mattfyles</maintainer>
     <partnumber>XM-002104-DH</partnumber>
-    <release parenthash = "f12647a37abf925d10ec914055974da91c4593d0" version = "1.0.0alpha0"></release>
+    <release parenthash = "f12647a37abf925d10ec914055974da91c4593d0" version = "1.0.0alpha0" githash = "fc01981446b929fb6a913dc5f3dff36236a9f445"></release>
+    <release parenthash = "fc01981446b929fb6a913dc5f3dff36236a9f445" version = "1.0.0alpha1"></release>
     <subpartnumber>XM-002105-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <xcore_repo>sw_xscope_examples.git</xcore_repo>

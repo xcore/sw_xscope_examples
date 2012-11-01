@@ -1,7 +1,7 @@
 XScope Application Examples
 ...........................
 
-:Latest release: 1.0.0alpha0
+:Latest release: 1.0.0alpha1
 :Maintainer: mattfyles
 :Description: Examples for using the XMOS xScope instrumentation system.
 

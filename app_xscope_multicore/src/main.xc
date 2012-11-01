@@ -1,51 +1,33 @@
 #include <xscope.h>
-#include <platform.h>
-
-void wait(int delay){
-  timer t;
-  int i;
-  t :> i;
-  t when timerafter(i + delay) :> i;
-}
+#include <xs1.h>
 
 void output_data_1(unsigned int value) {
-  xscope_probe_data(0, value);
+  xscope_probe_cpu_data(0, value);
+  // Send to output port
 }
 
 void output_data_2(unsigned int value) {
-  xscope_probe_data(1, value);
+  xscope_probe_cpu_data(1, value);
+  // Send to output port
 }
 
-void core_0_func(chanend sync) {
-  xscope_register(2,
-	    		   XSCOPE_CONTINUOUS, "Continuous Value 1", XSCOPE_UINT, "Value",
-				   XSCOPE_CONTINUOUS, "Continuous Value 2", XSCOPE_UINT, "Value");
-
-  sync <: 1;
-
+void do_output_loop(unsigned int multiplier) {
   for (int i = 0; i < 100; i++) {
-	wait(10000);
-    output_data_1(i*i);
-  }
-}
-
-void core_1_func(chanend sync) {
-  unsigned tmp;
-
-  sync :> tmp;
-
-  for (int i = 0; i < 100; i++) {
-	wait(10000);
-	output_data_2(i*i*2);
+    output_data_1(i*multiplier);
+    output_data_2(i*2*multiplier);
   }
 }
 
 int main (void) {
-   chan sync;
+
+   xscope_register(2,
+				   XSCOPE_CONTINUOUS, "Continuous Value 1", XSCOPE_UINT, "Value",
+				   XSCOPE_CONTINUOUS, "Continuous Value 2", XSCOPE_UINT, "Value");
+
 
    par {
-     on stdcore[0]: core_0_func(sync);
-     on stdcore[1]: core_1_func(sync);
+	 do_output_loop(1);
+	 do_output_loop(3);
    }
 
    return 0;

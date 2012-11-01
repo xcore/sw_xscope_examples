@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<xpd>
+    <components></components>
+    <description>Examples for using the XMOS xScope instrumentation system.</description>
+    <location>git@github.com:xcore/sw_xscope_examples.git</location>
+    <name>sw_xscope_examples</name>
+    <maintainer>mattfyles</maintainer>
+    <partnumber>XM-002104-DH</partnumber>
+    <subpartnumber>XM-002105-SM</subpartnumber>
+    <vendor>XMOS</vendor>
+    <xcore_repo>sw_xscope_examples.git</xcore_repo>
+    <xpd_version>1.0</xpd_version>
+</xpd>

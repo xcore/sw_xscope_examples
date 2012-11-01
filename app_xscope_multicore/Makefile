@@ -2,13 +2,13 @@
 # compiled for. It either refers to an XN file in the source directories
 # or a valid argument for the --target option when compiling.
 
-TARGET = XR-USB-AUDIO-2.0-MC
+TARGET = XK-1A
 
 # The APP_NAME variable determines the name of the final .xe file. It should
 # not include the .xe postfix. If left blank the name will default to 
 # the project name
 
-APP_NAME = app_xscope_multicore
+APP_NAME = app_xscope_multithreaded
 
 # The flags passed to xcc when building the application
 # You can also set the following to override flags for a particular language:
